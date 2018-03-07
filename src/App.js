@@ -2,17 +2,35 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from 'react-router-dom';
+
+import About from './About';
+import Education from './Education';
+import Experience from './Experience';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <HashRouter>
+            <div>
+              <h1>Sample</h1>
+              <ul className="header">
+                <li><NavLink exact to="/">A</NavLink></li>
+                <li><NavLink to="/experience">B</NavLink></li>
+                <li><NavLink to="/education">C</NavLink></li>
+              </ul>
+              <p className="App-intro">
+                <Route exact path="/" component={About} />
+                <Route path="/experience" component={Experience} />
+                <Route path="/education" component={Education} />
+              </p>
+            </div>
+          </HashRouter>
       </div>
     );
   }
