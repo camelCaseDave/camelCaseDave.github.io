@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import lilogo from './li-logo.png'
 import ghlogo from './gh-logo.png';
+import sologo from './so-logo.png';
 import './App.css';
 
 import {
@@ -26,9 +27,10 @@ class App extends Component {
               <li><NavLink exact to="/">About</NavLink></li>
               <li><NavLink to="/experience">Experience</NavLink></li>
               <li><NavLink to="/education">Education</NavLink></li>
-              <li><NavLink to="/certification">Certification</NavLink></li>
+              <li><NavLink to="/certification">Certification</NavLink></li>             
               <li><a href="//linkedin.com/in/davidjbclark" target="_blank" class="right"><img src={lilogo} alt="LinkedIn" /></a></li>
               <li><a href="//github.com/camelCaseDave" target="_blank" class="right"><img src={ghlogo} alt="GitHub" /></a></li>
+              <li><a href="//stackoverflow.com/users/3197581/dave-clark?tab=profile" target="_blank" class="right"><img src={sologo} alt="StackOverflow" /> </a></li>
             </ul>
             <p className="App-intro">
               <Route exact path="/" component={About} />
