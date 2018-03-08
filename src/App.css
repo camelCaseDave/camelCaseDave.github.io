@@ -93,3 +93,9 @@ ul.header .active {
 .vertical-box {
   padding-bottom: 24px;
 }
+
+p.footer {
+  margin-bottom:0;
+  font-style:italic;
+  font-size:14px;  
+}

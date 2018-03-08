@@ -13,8 +13,9 @@ class Experience extends Component {
           <div class="boxed-group-body">
             <p>
               <ul>
-                <li>Stuff</li>
-                <li>More stuff</li>                
+                <li>Delivering new and upgraded Dynamics CRM 2011 - 365 systems</li>
+                <li>Agile Scrum master and ownership of projects throughout entire lifecycle; pre-sales to build and go-live support</li>                
+                <li>Architecting codebases for Dynamics extensions with VSTS DevOps pipeline and test automation</li>
               </ul>
             </p>
           </div>
@@ -22,31 +23,21 @@ class Experience extends Component {
         <div key="b" class="vertical-box">
           <div class="boxed-group-heading">
             <span>Pythagoras</span>
-            <span class="right">August 2015 - September 2016</span>
+            <span class="right">July 2013 - September 2016*</span>
           </div>
           <div class="boxed-group-body">
             <p>
               <ul>
-                <li>Stuff</li>
-                <li>More stuff</li>
+                <li>Full stack .NET extensions for Dynamics</li>
+                <li>Adxstudio portal implementation and website integration</li>
+                <li>SQL database architecture, maintenance and SSIS data migration</li>
+                <li>Leading requirements workshops and playback sessions for PRINCE2 and Waterfall projects</li>
               </ul>
             </p>
+            <p class="footer"> * Full-time placement for 2013/14, sponsored studying at University during 2015 and full-time thereafter</p>
           </div>
-        </div>
-        <div key="c" class="vertical-box">
-          <div class="boxed-group-heading">
-            <span>Pythagoras</span>
-            <span class="right">July 2013 - August 2014</span>
-          </div>
-          <div class="boxed-group-body">
-            <p>
-              <ul>
-                <li>Stuff</li>
-                <li>More stuff</li>
-              </ul>
-            </p>
-          </div>
-        </div>
+        </div>      
+        
       </FlipMove>
     );
   }
