@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import lilogo from './li-logo.png'
-import ghlogo from './gh-logo.png';
-import sologo from './so-logo.png';
-import maillogo from './mail-logo.png';
+import lilogo from './media/li-logo.png'
+import ghlogo from './media/gh-logo.png';
+import sologo from './media/so-logo.png';
+import maillogo from './media/mail-logo.png';
 import './App.css';
 
 import {
@@ -12,7 +12,7 @@ import {
   HashRouter
 } from 'react-router-dom';
 
-import About from './About';
+import About from './about/About';
 import Education from './Education';
 import Experience from './Experience';
 import Certification from './Certification';

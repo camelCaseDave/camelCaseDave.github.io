@@ -48,8 +48,7 @@ ul.header .active {
 
 .boxed-group {
   display: block;
-  padding-left: 9px;
-  padding-right: 9px;  
+  padding: 9px; 
   margin-bottom: 24px;
   font-size: 14px;
   line-height: 17px;
