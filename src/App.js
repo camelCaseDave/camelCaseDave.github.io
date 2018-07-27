@@ -15,7 +15,7 @@ import {
 import About from './about/About';
 import Education from './Education';
 import Experience from './Experience';
-import Certification from './Certification';
+import Certification from './certification/Certification';
 
 class App extends Component {
   render() {
