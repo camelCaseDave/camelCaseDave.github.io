@@ -49,7 +49,7 @@ export default class ExperienceCardFactory {
                 "SQL database architecture, maintenance and SSIS data migration",
                 "Leading requirements workshops and playback sessions for PRINCE2 and Waterfall projects"
             ],
-            " * Full-time placement for 2013/14, sponsored studying at University during 2015 and full-time thereafter"
+            <p class="footer"> * Full-time placement for 2013/14, sponsored studying at University during 2015 and full-time thereafter</p>
         );
 
         return pythagorasCard;
