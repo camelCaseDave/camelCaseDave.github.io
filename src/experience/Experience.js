@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import FlipMove from "react-flip-move";
 
+import ExperienceCard from "./ExperienceCard";
+import ExperienceCardFactory from "./ExperienceCardFactory";
+
 class Experience extends Component {
   render() {
     return (
@@ -53,6 +56,10 @@ class Experience extends Component {
 
       </FlipMove>
     );
+  }
+
+  renderCards() {
+    const cards = Experience
   }
 }
 
