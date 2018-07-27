@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Container, Card, Image } from "semantic-ui-react";
 
-import AboutCard from "./AboutCard";
 import AboutCardFactory from "./AboutCardFactory";
 
 class About extends Component {

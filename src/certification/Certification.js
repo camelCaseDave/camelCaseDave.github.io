@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import FlipMove from "react-flip-move";
 
-import CertificationCard from "./CertificationCard";
 import CertificationCardFactory from "./CerficiationCardFactory";
 
 class Certification extends Component {

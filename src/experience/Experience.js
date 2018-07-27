@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import FlipMove from "react-flip-move";
 
-import ExperienceCard from "./ExperienceCard";
 import ExperienceCardFactory from "./ExperienceCardFactory";
 
 class Experience extends Component {
