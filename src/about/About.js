@@ -11,7 +11,7 @@ class About extends Component {
         <Card.Group>
           {this.renderCards()}
         </Card.Group>
-      </Container>
+      </Container >
     );
   }
 

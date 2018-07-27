@@ -5,22 +5,35 @@ class Experience extends Component {
   render() {
     return (
       <FlipMove staggerDelayBy={150} appearAnimation="accordionVertical"  >
-        <div key="a" class="vertical-box">
+        <div key="c" class="vertical-box">
           <div class="boxed-group-heading">
-            <span>Chorus</span>
-            <span class="right">September 2016 - Present</span>
+            <span>Capgemini</span>
+            <span class="right">July 2018 - Present</span>
           </div>
           <div class="boxed-group-body">
             <p>
               <ul>
-                <li>Delivering new and upgraded Dynamics CRM 2011 - 365 systems</li>
-                <li>Agile Scrum master and ownership of projects throughout entire lifecycle; pre-sales to build and go-live support</li>                
-                <li>Architecting codebases for Dynamics extensions with VSTS DevOps pipeline and test automation</li>
+                <li>DevOps pipeline implementation and extension</li>
               </ul>
             </p>
           </div>
         </div>
         <div key="b" class="vertical-box">
+          <div class="boxed-group-heading">
+            <span>Chorus</span>
+            <span class="right">September 2016 - June 2018</span>
+          </div>
+          <div class="boxed-group-body">
+            <p>
+              <ul>
+                <li>Delivering new and upgraded Dynamics CRM 2011 - 365 systems</li>
+                <li>Agile Scrum master and ownership of projects throughout entire lifecycle; pre-sales to build and go-live support</li>
+                <li>Architecting codebases for Dynamics extensions with VSTS DevOps pipeline and test automation</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div key="a" class="vertical-box">
           <div class="boxed-group-heading">
             <span>Pythagoras</span>
             <span class="right">July 2013 - September 2016*</span>
@@ -36,8 +49,8 @@ class Experience extends Component {
             </p>
             <p class="footer"> * Full-time placement for 2013/14, sponsored studying at University during 2015 and full-time thereafter</p>
           </div>
-        </div>      
-        
+        </div>
+
       </FlipMove>
     );
   }
