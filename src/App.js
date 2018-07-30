@@ -13,7 +13,7 @@ import {
 } from 'react-router-dom';
 
 import About from './about/About';
-import Education from './Education';
+import Education from './education/Education';
 import Experience from './experience/Experience';
 import Certification from './certification/Certification';
 
